@@ -192,7 +192,7 @@ Dieses Projekt wäre ohne folgende Vorarbeiten nicht möglich gewesen:
 |---|---|
 | **[QMK Firmware](https://github.com/qmk/qmk_firmware)** | Framework, WB32-Toolchain, SNLED27351-Treiber, VIA-Support |
 | **[jonylee1986/qmk_firmware_master](https://github.com/jonylee1986/qmk_firmware_master/tree/a94b7e4c948a9ffe265b073e69292fc0325c0f39/keyboards/akko/5075)** | Originale AKKO 5075 Keyboard-Definition (Matrix, Pins, LED-Mapping) |
-| **[my_GMMK2_ISO-DE_custom_firmware](https://github.com/matthili/my_GMMK2_ISO-DE_custom_firmware)** **GMMK2 ISO Custom Firmware** | Vorlage für RGB-Basisfarben-Logik, EEPROM-Persistenz und reaktive Effekte |
+| **[my_GMMK2_ISO-DE_custom_firmware](https://github.com/matthili/my_GMMK2_ISO-DE_custom_firmware)** | Vorlage für RGB-Basisfarben-Logik, EEPROM-Persistenz und reaktive Effekte |
 
 Die RGB-Logik (Basisfarben-Presets, persistentes EEPROM-Handling, reaktiver Welleneffekt und Tasten-Blitz) wurde aus einer bestehenden GMMK2 ISO-DE Custom-Firmware portiert und auf die AKKO-5075-Hardware angepasst.
 
