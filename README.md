@@ -212,7 +212,7 @@ Die RGB-Logik (Basisfarben-Presets, persistentes EEPROM-Handling, reaktiver Well
 
 ## Lizenz
 
-Copyright © 2024
+Copyright © 2026
 
 Diese Firmware basiert auf dem [QMK Firmware](https://github.com/qmk/qmk_firmware) Projekt und steht unter der **GNU General Public License v2.0**.
 
