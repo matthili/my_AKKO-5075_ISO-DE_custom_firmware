@@ -1,6 +1,6 @@
 # AKKO 5075 — Custom QMK Firmware (ISO-DE)
 
-> **Deutsches QWERTZ-Layout** mit reaktiver RGB-Beleuchtung, persistenten Basisfarben und VIA-Support — portiert für die AKKO 5075 Tastatur (WB32FQ95 MCU).
+> **Deutsches QWERTZ-Layout** mit reaktiver RGB-Beleuchtung, persistenten Basisfarben und VIA-Support — portiert für die AKKO 5075 Tastatur (WB32FQ95 MCU). Diese Firmware entspricht der Portierung einer AKKO 5075 ANSI zu einer AKKO 5075 mit QWERTZ-Layout.
 
 ---
 
@@ -16,7 +16,7 @@
 
 | Feature | Details |
 |---|---|
-| 🇩🇪 **Deutsches QWERTZ** | Vollständiges ISO-DE Layout mit Ä, Ö, Ü, ß, toten Akzenten |
+| 🇦🇹/🇩🇪 **Deutsches QWERTZ** | nahezu Vollständiges ISO-DE Layout mit Ä, Ö, Ü, ß, toten Akzenten |
 | 🌈 **RGB-Basisfarben** | 10 wählbare Farben + Aus, EEPROM-persistent über Neustarts |
 | ✨ **Reaktive Effekte** | ESC/Enter → roter Welleneffekt · alle anderen Tasten → grüner Blitz |
 | 🔴🟢 **Caps Lock Puls** | 5× rot pulsierend bei Aktivierung (3 Sek.), danach LED aus · 5× grün bei Deaktivierung, danach Basisfarbe |
