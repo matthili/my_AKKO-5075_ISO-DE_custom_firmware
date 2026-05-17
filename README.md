@@ -19,6 +19,8 @@
 | 🇩🇪 **Deutsches QWERTZ** | Vollständiges ISO-DE Layout mit Ä, Ö, Ü, ß, toten Akzenten |
 | 🌈 **RGB-Basisfarben** | 10 wählbare Farben + Aus, EEPROM-persistent über Neustarts |
 | ✨ **Reaktive Effekte** | ESC/Enter → roter Welleneffekt · alle anderen Tasten → grüner Blitz |
+| 🔴🟢 **Caps Lock Puls** | 5× rot pulsierend bei Aktivierung (3 Sek.), danach LED aus · 5× grün bei Deaktivierung, danach Basisfarbe |
+| 🔦 **FN-Layer Highlight** | Bei gedrückter FN-Taste leuchten nur belegte Tasten (grün bei ausgeschalteter Beleuchtung) |
 | 🔊 **Encoder** | Drehen = Lautstärke · im Fn-Layer = Helligkeit |
 | ⌨️ **VIA-kompatibel** | Keymap per VIA-App live bearbeitbar |
 | ⏱️ **Debounce 25 ms** | Verhindert Tastenkontaktrauschen (Chatter) |
@@ -102,6 +104,29 @@ AltGr + ß  = \      AltGr + +  = ~      AltGr + <>| = |
 | 2 | 🟣 Violett | 7 | ⚪ Weiß |
 | 3 | 🩷 Rosa | 8 | 🔴 Rot |
 | 4 | 🩵 Türkis | 9 | ⚫ Aus |
+
+### Caps Lock Puls-Indikator
+
+Die Caps-Lock-Taste signalisiert Zustandswechsel mit einer Puls-Animation:
+
+| Aktion | Animation | Danach |
+|---|---|---|
+| **Caps Lock AN** (abnormal) | 5× hell rot pulsierend (3 Sek.) | LED aus |
+| **Caps Lock AUS** (normal) | 5× hell grün pulsierend (3 Sek.) | Basisfarbe |
+
+> Die Puls-Animation funktioniert auch bei ausgeschalteter Hintergrundbeleuchtung.
+> Das Pulsieren erfolgt zwischen Farbe und Schwarz (nicht zwischen Farbe und Basisfarbe).
+
+### FN-Layer Beleuchtung
+
+Beim Gedrückthalten der FN-Taste werden nur die Tasten beleuchtet, die im FN-Layer eine Funktion haben:
+
+| Hintergrundbeleuchtung | Verhalten bei FN gedrückt |
+|---|---|
+| **AN** | Nur FN-belegte Tasten leuchten in der Basisfarbe, alle anderen aus |
+| **AUS** | FN-belegte Tasten leuchten grün, alle anderen bleiben aus |
+
+Beim Loslassen der FN-Taste kehrt die Beleuchtung sofort zum Normalzustand zurück.
 
 ---
 
